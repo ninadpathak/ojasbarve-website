@@ -113,21 +113,9 @@ h3 { font-size: 1.3rem; }
   gap: 10px;
   text-decoration: none;
 }
-.brand-mark {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.35rem;
-  line-height: 1;
-  color: var(--paper);
-  background: var(--ink);
-  padding: 7px 9px 9px;
-  border-radius: var(--radius);
-  transition: background .25s;
-}
-.brand:hover .brand-mark { background: var(--accent); }
 .brand-name {
   font-family: var(--font-display);
-  font-size: 1.12rem;
+  font-size: 1.55rem;
   font-weight: 500;
 }
 .brand-name .flag {
