@@ -130,14 +130,9 @@ h3 { font-size: 1.3rem; }
   font-size: 1.12rem;
   font-weight: 500;
 }
-.brand-name small {
-  display: block;
-  font-family: var(--font-text);
-  font-size: .68rem;
-  font-weight: 600;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--ink-2);
+.brand-name .flag {
+  font-size: .85em;
+  vertical-align: middle;
 }
 
 .nav-links {
