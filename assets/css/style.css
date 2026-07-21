@@ -261,7 +261,7 @@ h3 { font-size: 1.3rem; }
   width: 100%;
   aspect-ratio: 4 / 3.4;
   object-fit: cover;
-  object-position: 72% 20%;
+  object-position: 44% 15%;
   filter: grayscale(.35) contrast(1.04);
   transition: filter .6s;
 }
