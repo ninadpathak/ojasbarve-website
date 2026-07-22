@@ -553,6 +553,28 @@ h3 { font-size: 1.3rem; }
 .page-hero h1 { margin-top: 18px; max-width: 15ch; }
 .page-hero .lede { margin-top: 20px; }
 
+/* ---------- tab nav (Background section) ---------- */
+
+.tab-nav { border-bottom: 1px solid var(--line); background: var(--paper-2); }
+.tab-nav .wrap { display: flex; flex-wrap: wrap; gap: 10px; padding: 22px 24px; }
+.tab-nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink-2);
+  transition: all .25s var(--ease);
+}
+.tab-nav a:hover { border-color: var(--ink); color: var(--ink); }
+.tab-nav a.active { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+
 /* ---------- about ---------- */
 
 .about-grid {
@@ -949,4 +971,6 @@ h3 { font-size: 1.3rem; }
   .contact-grid { grid-template-columns: 1fr; }
   .hero-badge { left: 12px; }
   .hero-photo::before { inset: 14px -12px -14px 14px; }
+  .tab-nav .wrap { padding: 16px 24px; gap: 8px; }
+  .tab-nav a { padding: 8px 16px; font-size: .78rem; }
 }
