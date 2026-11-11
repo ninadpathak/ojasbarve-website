@@ -783,6 +783,20 @@ h3 { font-size: 1.3rem; }
   background: var(--accent);
 }
 
+.xp-body .inst-list { gap: 18px; }
+.xp-body .inst {
+  display: block;
+  font-weight: 600;
+  color: var(--ink);
+}
+.xp-body .inst-when {
+  display: block;
+  font-family: var(--font-display);
+  font-size: .9rem;
+  color: var(--accent);
+  margin: 2px 0 4px;
+}
+
 /* ---------- contact ---------- */
 
 .contact-grid {
