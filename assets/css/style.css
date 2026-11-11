@@ -441,6 +441,7 @@ h3 { font-size: 1.3rem; }
   font-family: var(--font-display);
   color: var(--accent);
   font-size: 1rem;
+  white-space: nowrap;
 }
 .feature-row h3 { font-size: 1.35rem; }
 .feature-row .org {
@@ -450,6 +451,23 @@ h3 { font-size: 1.3rem; }
   margin-top: 4px;
 }
 .feature-row p { font-size: .95rem; color: var(--ink-2); }
+
+.feature-row .inst-list {
+  grid-column: 2 / -1;
+  list-style: none;
+  display: grid;
+  gap: 18px;
+  font-size: .95rem;
+  color: var(--ink-2);
+}
+.feature-row .inst { display: block; font-weight: 600; color: var(--ink); }
+.feature-row .inst-when {
+  display: block;
+  font-family: var(--font-display);
+  font-size: .9rem;
+  color: var(--accent);
+  margin: 2px 0 4px;
+}
 
 /* ---------- quote ---------- */
 
@@ -951,6 +969,7 @@ h3 { font-size: 1.3rem; }
   .card-grid { grid-template-columns: 1fr 1fr; }
   .stats-grid { grid-template-columns: 1fr 1fr; gap: 44px 24px; }
   .feature-row { grid-template-columns: 100px 1fr; }
+  .feature-row .when { white-space: normal; }
   .feature-row p { grid-column: 2; }
   .footer-grid { grid-template-columns: 1fr; gap: 36px; }
   .fact-card { position: static; }
